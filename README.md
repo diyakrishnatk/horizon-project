@@ -1,13 +1,11 @@
 <h1 align="center">🌍 Horizon</h1>
 
 <p align="center">
-   <img src="https://via.placeholder.com/200" width="35%" alt="Horizon Logo">
-</p> 
+   <img src="https://raw.githubusercontent.com/diyakrisnatk/horizon-project/main/frontend/src/assets/images/horizon.png" width="200" alt="Horizon Logo">
+</p>
 
----
-
-## 🚀 Demo
-Live demo available below 👇
+## 🚀 Live Demo
+👉 https://horizon1.netlify.app
 
 ---
 
