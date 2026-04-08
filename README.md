@@ -4,12 +4,12 @@
 </p>
 
 ## 🚀 Live Demo
-👉 https://horizon1.netlify.app
+👉 https://horizon-project-diya.netlify.app
 
 ---
 
 ## 🌐 Visit App
-To visit the app 👉 <a href="https://horizon1.netlify.app">Click here</a>  
+To visit the app 👉 <a href="https://horizon-project-diya.netlify.app">Click here</a>  
 <br>
 *Since this is hosted on a free platform, some features may load slowly.*
 
