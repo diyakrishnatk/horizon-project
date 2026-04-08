@@ -4,7 +4,7 @@
 </p> 
 
 ## Demo.
-https://github.com/Dhruv110903/Horizon/assets/93207042/a2ace876-ba9e-4dac-8ea1-325e95978587
+
 
 ## A Full-stack tour management MERN web application.
 This is a web application is built using MERN technologies.
