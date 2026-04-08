@@ -1,7 +1,6 @@
 <h1 align="center">🌍 Horizon</h1>
-
 <p align="center">
-   <img src="https://raw.githubusercontent.com/diyakrisnatk/horizon-project/main/frontend/src/assets/images/horizon.png" width="200" alt="Horizon Logo">
+   <img src="https://raw.githubusercontent.com/diyakrisnatk/horizon-project/main/logo.png" width="200" alt="Horizon Logo">
 </p>
 
 ## 🚀 Live Demo
