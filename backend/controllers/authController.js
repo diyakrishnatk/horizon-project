@@ -48,6 +48,8 @@ export const login = async (req, res) => {
     res.cookie("accessToken", token, {
       httpOnly: true,
       expires: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000), // 15 days
+      sameSite: "none",
+      secure: true,
     });
 
     res.status(200).json({ success: true, data: rest, role: user.role, token });

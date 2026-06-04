@@ -78,6 +78,7 @@ const AdminDashboard = () => {
             const res = await fetch(`${BASE_URL}/tours`, {
                 method: 'post',
                 headers: { 'content-type': 'application/json' },
+                credentials: 'include',
                 body: JSON.stringify(newTour),
             });
             if (res.ok) {

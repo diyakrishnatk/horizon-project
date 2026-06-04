@@ -99,7 +99,7 @@ const Booking = ({ tour, avgRating }) => {
           <ListGroupItem className="border-0 px-0">
             <h5 className="d-flex align-items-center gap-1">
             ₹{price} <i class="ri-close-line"></i>{booking.guestSize} person</h5>
-            <span>₹{price}</span>
+            <span>₹{price * Number(booking.guestSize)}</span>
           </ListGroupItem>
           <ListGroupItem className="border-0 px-0">
             <h5>Service charge</h5>
