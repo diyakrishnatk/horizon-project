@@ -17,8 +17,8 @@ dotenv.config({ path: ".env" });
 // console.log(process.env.MONGO_URI);
 
 
-// const app = express()
-// const port = process.env.PORT || 8000;
+const app = express()
+const port = process.env.PORT || 8000;
 
 // const corsOptions = {
 //     origin: ["http://localhost:3000", "http://localhost:3001"],
