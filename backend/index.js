@@ -9,29 +9,45 @@ import authRoute from './routes/auth.js'
 import reviewRoute from './routes/review.js'
 import bookingRoute from './routes/bookings.js'
 
-dotenv.config();
+dotenv.config({ path: ".env" });
+
+// import fs from "fs";
+
+// console.log(".env exists:", fs.existsSync(".env"));
+// console.log(process.env.MONGO_URI);
 
 
-const app = express()
-const port = process.env.PORT || 8000;
+// const app = express()
+// const port = process.env.PORT || 8000;
+
+// const corsOptions = {
+//     origin: ["http://localhost:3000", "http://localhost:3001"],
+//     methods: ["GET", "POST", "PUT", "DELETE"],
+//     credentials: true,
+// };
 
 const corsOptions = {
-    origin: ["http://localhost:3000", "http://localhost:3001"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
+  origin: [
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "https://horizon-project-diya.netlify.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
 };
 
-
 mongoose.set("strictQuery", false);
+
 const connect = async () => {
     try {
-        await mongoose.connect(process.env.MONGO_URI ,{
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
-        console.log('MongoDB Is connected successfully');
+       
+
+        await mongoose.connect(process.env.MONGO_URI);
+
+        console.log("MongoDB Is connected successfully");
     } catch (err) {
-        console.log('MongoDB Connection failed:', err.message);
+        console.error("FULL ERROR:");
+        console.error(err);
     }
 };
 
